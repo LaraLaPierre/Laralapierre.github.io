@@ -151,8 +151,8 @@ section h2 {
 header.masthead {
   position: relative;
   width: 100%;
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 75px;
+  padding-bottom: 75px;
   color: white;
   background: url("../img/bg-pattern.png"), #7b4397;
   background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
@@ -161,16 +161,16 @@ header.masthead {
 
 header.masthead .header-content {
   max-width: 500px;
-  margin-bottom: 100px;
+  margin-bottom: 75px;
   text-align: center;
 }
 
 header.masthead .header-content h1 {
-  font-size: 30px;
+  font-size: 75px;
 }
 
-header.masthead .device-container {
-  max-width: 325px;
+header.masthead .headshot-container {
+  max-width: 525px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -191,16 +191,20 @@ header.masthead .device-container .screen img {
     text-align: left;
   }
   header.masthead .header-content h1 {
-    font-size: 50px;
+    font-size: 60px;
   }
-  header.masthead .device-container {
-    max-width: 325px;
+  header.masthead .headshot-container {
+    max-width: 525px;
   }
+}
+
+section#introduction {
+  background: #D8C0CD;
 }
 
 section.download {
   position: relative;
-  padding: 150px 0;
+  padding: 80px 0;
 }
 
 section.download h2 {
@@ -398,7 +402,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #fdcc52;
+  background: #D8C0CD;
   background: -webkit-linear-gradient(#fdcc52, #fdc539);
   background: linear-gradient(#fdcc52, #fdc539);
 }
