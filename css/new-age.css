@@ -6,8 +6,16 @@ body {
 
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  /*font-family: 'Shrikhand', cursive;*/
+
 }
 
+title {
+  font-size: 14px;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 a {
   color: #fdcc52;
   -webkit-transition: all .35s;
@@ -29,17 +37,32 @@ hr {
 hr.light {
   border-color: white;
 }
+h1 {
+  font-family: 'Arima Madurai', cursive;
+  font-weight: bold
+  font-size: 90px;
+  letter-spacing: 3px;
+  margin-bottom: 1px;
+}
+h2 {
+  font-family: 'Arima Madurai', cursive;
+  font-size: 30px;
+}
 
-h1,
-h2,
+h5 {
+  font-family: 'Arima Madurai', cursive;
+  font-size: 20px;
+}
+
+
+
 h3,
-h4,
-h5,
-h6 {
+h4 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
+
 
 p {
   font-size: 18px;
@@ -52,7 +75,11 @@ section {
 }
 
 section h2 {
-  font-size: 50px;
+  font-size: 40px;
+} 
+
+section#introduction {
+  background-color: #d8c0cd;
 }
 
 #mainNav {
@@ -84,7 +111,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a {
-  font-size: 24px;
+  font-size: 14px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -165,6 +192,7 @@ header.masthead .header-content {
   text-align: center;
 }
 
+
 header.masthead .header-content h1 {
   font-size: 75px;
 }
@@ -175,8 +203,9 @@ header.masthead .headshot-container {
   margin-left: auto;
 }
 
-header.masthead .device-container .screen img {
-  border-radius: 3px;
+header.masthead .headshot-container img {
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px;
 }
 
 @media (min-width: 992px) {
@@ -196,15 +225,13 @@ header.masthead .device-container .screen img {
   header.masthead .headshot-container {
     max-width: 525px;
   }
-}
-
-section#introduction {
-  background: #D8C0CD;
-}
 
 section.download {
   position: relative;
   padding: 80px 0;
+  background-color: #d8c0cd;
+  
+
 }
 
 section.download h2 {
