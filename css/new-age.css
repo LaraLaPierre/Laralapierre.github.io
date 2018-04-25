@@ -230,9 +230,13 @@ section.download {
   position: relative;
   padding: 80px 0;
   background-color: #d8c0cd;
-  
-
+  /*background: url("../img/symphony.png"), #d8c0cd; */ 
+  /*background: url("../img/bg-pattern.png"), #7b4397;*/
 }
+
+/*section.download #introduction {
+  background: url("../img/symphony.png") 
+}*/
 
 section.download h2 {
   font-size: 50px;
