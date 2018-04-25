@@ -46,7 +46,7 @@ h1 {
 }
 h2 {
   font-family: 'Arima Madurai', cursive;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 h5 {
@@ -237,9 +237,18 @@ section.download {
 /*section.download #introduction {
   background: url("../img/symphony.png") 
 }*/
+section {
+  padding-bottom: : 50px;
+}
+
+.carousel {
+  width:400px;
+  height:400px;
+  padding-bottom: 20px;
+}
 
 section.download h2 {
-  font-size: 50px;
+  font-size: 100px;
   margin-top: 0;
 }
 
